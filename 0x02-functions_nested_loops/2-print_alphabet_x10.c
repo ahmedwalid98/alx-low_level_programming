@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_alphapet_x10 - To print all alphapets in lowercase 10 times
+ * print_alphabet_x10 - To print all alphapets in lowercase 10 times
  */
-void print_alphapet_x10(void)
+void print_alphabet_x10(void)
 {
 	int i = 0;
 	char letter = 'a';
