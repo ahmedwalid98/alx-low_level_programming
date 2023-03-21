@@ -1,5 +1,5 @@
 #include "main.h"
-#include <cstdlib>
+#include <stdlib.h>
 /**
  * _abs - Computes the absolute value of an integer
  * @n: The number to get absoluted
