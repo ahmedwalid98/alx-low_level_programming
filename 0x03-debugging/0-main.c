@@ -1,12 +1,16 @@
 #include "main.h"
+
 /**
- * positive_or_negative - Test if it gives the right output
- * @i: Number to test
- */
-void positive_or_negative(int n)
+* main - tests function that prints if integer is positive or negative
+* Return: 0
+*/
+
+int main(void)
 {
-	if (n == 0)
-	{
-		printf("%d is zero/n", n);
-	}
+	int i;
+
+	i = 0;
+	positive_or_negative(i);
+
+	return (0);
 }
