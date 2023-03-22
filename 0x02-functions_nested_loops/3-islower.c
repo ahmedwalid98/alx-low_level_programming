@@ -9,6 +9,9 @@
 int _islower(int c)
 {
 	int value = islower(c);
-
-	return (value);
+	if (value == 0)
+		return (1);
+	else
+		return (0);
+	
 }
