@@ -6,10 +6,8 @@
  * Return: Return 1 if its uppercase and 0 if its not
  */
 int _isupper(int c)
-{	
-	int value = isupper(c);
-
-	if (value > 0)
+{
+	if (isupper(c) > 0)
 		return (1);
 	else
 		return (0);
