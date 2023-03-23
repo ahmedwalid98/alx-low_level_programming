@@ -7,7 +7,7 @@ void print_number(int n)
 {
 	if (n == 0)
 	{
-		putchar(0 + '0');
+		_putchar(0 + '0');
 	} else
 	{
 		int tmp = n, i = 1;
@@ -21,11 +21,11 @@ void print_number(int n)
 		if (n < 0)
 		{
 			n *= -1;
-			putchar('-');
+			_putchar('-');
 		}
 		while (i != 0)
 		{
-			putchar(n / i + '0');
+			_putchar(n / i + '0');
 			n = n % i;
 			i = i / 10;
 		}
