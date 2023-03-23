@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * mul - Multiplies to numbers
