@@ -10,10 +10,16 @@ char *rot13(char *s)
 
 	while (*s != '\n')
 	{
-		if ((*s >= 'A' && *s <= 'M') || (*s >= 'a' && *s <= 'm'))
+		if (*s >= 'A' && *s <= 'M')
 		{
 			*s += 13;
-		} else if (*s >= 'N' && *s <= 'Z' || (*s >= 'n' && *s <= 'z'))
+		} else if (*s >= 'N' && *s <= 'Z')
+		{
+			*s -= 13;
+		} else if (*s >= 'a' && *s <= 'm')
+		{
+			*s += 13;
+		} else if (*s >= 'n' && *s <= 'z')
 		{
 			*s -= 13;
 		}
