@@ -8,7 +8,7 @@ char *rot13(char *s)
 {
 	char *tmp = s;
 
-	while (*s != '\n')
+	while (*s != '\0')
 	{
 		if (*s >= 'A' && *s <= 'M')
 		{
