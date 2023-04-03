@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 /**
  * _memcpy - Copies memory area
  * @dest: The first string
