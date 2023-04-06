@@ -29,11 +29,11 @@ int check(char *s, int i, int j)
 		return (0);
 }
 /**
- * is_plaindrome - Checks if string is plaindrome
+ * is_palindrome - Checks if string is plaindrome
  * @s: the string to be checked
  * Return: 1 if its plaindrome 0 if not
  */
-int is_plaindrome(char *s)
+int is_palindrome(char *s)
 {
 	return (check(s, 0, _strlen_recursion(s) - 1));
 }
