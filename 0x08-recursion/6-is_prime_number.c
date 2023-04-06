@@ -9,11 +9,11 @@
  */
 int check(int a, int b)
 {
-        if (a == b)
-                return (1);
-        if (a > b)
-                return (0);
-        return (check(a + 2, b));
+	if (a == b)
+		return (1);
+	if (a > b)
+		return (0);
+	return (check(a + 2, b));
 }
 /**
  * is_prime_number - Checks if the number is prime
