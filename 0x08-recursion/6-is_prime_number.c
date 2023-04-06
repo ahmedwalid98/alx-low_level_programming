@@ -10,7 +10,7 @@
 int check(int a, int b)
 {
         if (a == b)
-                return (a);
+                return (1);
         if (a > b)
                 return (0);
         return (check(a + 2, b));
