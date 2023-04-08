@@ -13,11 +13,9 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		return (1);
 	}
-	int j, sum = 0;
+	int j = 0, sum = 0;
 	int changes[] = {25, 10, 5, 2, 1};
-
-		j = 0;
-		int cents = atoi(argv[1]);
+	int cents = atoi(argv[1]);
 
 		while (cents > 0)
 		{
