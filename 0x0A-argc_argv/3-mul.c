@@ -12,7 +12,7 @@ int main(int argc, char **argv)
 
 	if (argc < 3)
 	{
-		pritf("Error\n");
+		printf("Error\n");
 		return (1);
 	}
 	first = atoi(argv[1]);
