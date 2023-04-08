@@ -16,10 +16,8 @@ int main(int argc, char **argv)
 	int i, j, sum = 0;
 	int changes[] = {25, 10, 5, 2, 1};
 
-	for (i = 1; i < argc; i++)
-	{
 		j = 0;
-		int cents = atoi(argv[i]);
+		int cents = atoi(argv[1]);
 
 		while (cents > 0)
 		{
@@ -32,7 +30,6 @@ int main(int argc, char **argv)
 				j++;
 			}
 		}
-	}
 	printf("%d\n", sum);
 	return (0);
 }
