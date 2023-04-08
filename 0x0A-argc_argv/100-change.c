@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		return (1);
 	}
-	int i, j, sum = 0;
+	int j, sum = 0;
 	int changes[] = {25, 10, 5, 2, 1};
 
 		j = 0;
