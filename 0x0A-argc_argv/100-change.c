@@ -13,6 +13,7 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		return (1);
 	}
+
 	int j = 0, sum = 0;
 	int changes[] = {25, 10, 5, 2, 1};
 	int cents = atoi(argv[1]);
