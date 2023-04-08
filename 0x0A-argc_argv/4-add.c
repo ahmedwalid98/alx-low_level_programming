@@ -8,6 +8,7 @@
  */
 int main(int argc, char **argv)
 {
+	int i, n, sum = 0;
 	char *f;
 
 	if (argc < 2)
