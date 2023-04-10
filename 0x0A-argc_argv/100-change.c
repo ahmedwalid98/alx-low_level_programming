@@ -17,15 +17,18 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		return (1);
 	}
-	while (cents > 0)
+	else
 	{
-		if (cents >= changes[j])
+		while (cents > 0)
 		{
-			cents -= changes[j];
-			sum++;
-		} else
-		{
-		j++;
+			if (cents >= changes[j])
+			{
+				cents -= changes[j];
+				sum++;
+			} else
+			{
+				j++;
+			}
 		}
 	}
 	printf("%d\n", sum);
