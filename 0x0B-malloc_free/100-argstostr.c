@@ -34,7 +34,7 @@ char *argstostr(int ac, char **av)
 		while (s[k])
 		{
 			args[j] = s[k];
-			s++;
+			j++;
 			k++;
 		}
 		args[j++] = '\n';
