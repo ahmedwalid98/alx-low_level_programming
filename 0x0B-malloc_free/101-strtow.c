@@ -72,6 +72,7 @@ char **strtow(char *str)
 				j++;
 
 			if (str[word] != ' ' && (str[word + 1] == ' ' || str[word + 1] == '\0'))
+			{
 				s[i] = (char *) malloc(sizeof(char) * (word - j + 2));
 				if (s[i] == NULL)
 				{
@@ -79,6 +80,7 @@ char **strtow(char *str)
 					return (NULL);
 				}
 				break;
+			}
 		}
 
 		for (k = 0; j <= word; j++, k++)
