@@ -14,7 +14,7 @@ int wordcount(char *s)
 
 	while (*s)
 	{
-		if (*str == ' ')
+		if (*s == ' ')
 			s++;
 		else
 		{
