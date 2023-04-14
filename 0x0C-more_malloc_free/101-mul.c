@@ -16,11 +16,8 @@ int find_len(char *str)
 {
 	int len = 0;
 
-	while (*str)
-	{
+	while (*str++)
 		len++;
-		str++;
-	}
 	return (len);
 }
 /**
