@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 /**
- * sun_them_all - sum all of parameters
+ * sum_them_all - sum all of parameters
  * @n: parameters
  * Return: the sum
  */
