@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * add_nodeint - adds new node at the beginnig
- * @h: pointer to pointer to node
+ * @head: pointer to pointer to node
  * @n: the value
  * Return: pointer to new node
  */
