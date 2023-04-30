@@ -7,7 +7,7 @@
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-	struct listint_t *temp;
+	listint_t *temp;
 
 	if (head == NULL)
 		return (NULL);
