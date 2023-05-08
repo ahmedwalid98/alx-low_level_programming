@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * check_97 - check 97 
+ * check_97 - check 97
  * @argc: number of arguments
  */
 void check_97(int argc)
@@ -8,7 +8,7 @@ void check_97(int argc)
 	if (argc != 3)
 	{
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
-		exit (97);
+		exit(97);
 	}
 }
 /**
@@ -20,11 +20,12 @@ void check_97(int argc)
  *
  * Return: void
  */
-void check_98(ssize_t check, char* file, int fd_from, int fd_to)
+void check_98(ssize_t check, char *file, int fd_from, int fd_to)
 {
 	if (check == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file NAME_OF_THE_FILE%s\n", file);
+		dprintf(STDERR_FILENO, "Error: Can't read from file NAME_OF_THE_FILE%s\n",
+				file);
 		if (fd_from != -1)
 			close(fd_from);
 		if (fd_to != -1)
